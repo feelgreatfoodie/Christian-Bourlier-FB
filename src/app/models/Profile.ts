@@ -3,10 +3,11 @@ export interface Profile {
   lastName: string,
   location: string,
   specialty: string,
+  image?: string,
   contactInfo: {
     phone: string,
     email: string,
-    github: string,
-    linkedIn: string
+    github?: string,
+    linkedIn?: string
   }
 }

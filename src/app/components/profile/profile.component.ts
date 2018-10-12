@@ -21,6 +21,7 @@ export class ProfileComponent implements OnInit {
       lastName: 'Bourlier',
       location: 'Boulder  CO',
       specialty: 'Software Developer',
+      image: '../../../assets/christianBourlier.jpg',
   
       contactInfo: {
         phone: '310.963.5282',

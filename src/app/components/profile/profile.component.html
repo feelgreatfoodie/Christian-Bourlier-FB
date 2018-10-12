@@ -1,7 +1,12 @@
-<h3>{{ profile.firstName }} {{ profile.lastName }}</h3>
-<ul>
-  <li>{{ profile.specialty }}</li>
-  <li>{{ profile.location }}</li>
-  <li>{{ profile.contactInfo.phone }}</li>
-  <li>{{ profile.contactInfo.email }}</li>
-</ul>
+<div class="card">
+  <div class="card-body">
+    <h3>{{ profile.firstName }} {{ profile.lastName }}</h3>
+    <p>{{ profile.specialty }}</p>
+    <img src="{{ profile.image" alt="image of {{ profile.firstName }}">
+    <ul>
+      <li>{{ profile.location }}</li>
+      <li>{{ profile.contactInfo.phone }}</li>
+      <li>{{ profile.contactInfo.email }}</li>
+    </ul>
+  </div>
+</div>
