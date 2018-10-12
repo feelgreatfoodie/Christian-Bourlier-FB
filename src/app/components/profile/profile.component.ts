@@ -25,7 +25,7 @@ export class ProfileComponent implements OnInit {
   
       contactInfo: {
         phone: '310.963.5282',
-        email: 'ChristianBourlier@gmail.com',
+        email: 'ChristianBourlier@gmail',
         github: 'https://github.com/feelgreatfoodie',
         linkedIn: 'https://linkedin.com/in/christianbourlier/' 
       }

@@ -1,5 +1,8 @@
-<h1>Hello New Friend</h1>
-<p>View posts created by me on various outlets.</p>
-<button class="btn btn-secondary">LinkedIn</button>
-<button class="btn btn-dark">GitHub</button>
-<button class="btn btn-dark">Facebook</button>
+<app-container></app-container>
+<br>
+<button class="btn btn-secondary" [routerLink]="['/posts']">LinkedIn</button>
+<button class="btn btn-dark" [routerLink]="['/posts']">GitHub</button>
+<button class="btn btn-dark" [routerLink]="['/posts']">Facebook</button>
+<br>
+
+<app-posts></app-posts>
