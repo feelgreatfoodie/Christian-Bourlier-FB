@@ -1,6 +1,8 @@
 nav {
   background-color: #52636e;
-  /* color: #9dbacc */
+  position: fixed;
+  width: 100%;
+  z-index: 1
 }
 
 small {
