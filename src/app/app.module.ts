@@ -8,6 +8,7 @@ import { ContainerComponent } from './components/container/container.component'
 import { SocialMediaComponent } from './components/social-media/social-media.component'
 import { NavbarComponent } from './components/navbar/navbar.component'
 import { PostsComponent } from './components/posts/posts.component'
+import { PostComponent } from './components/post/post.component'
 import { PostService } from './services/post.service';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component'
@@ -20,6 +21,7 @@ import { HomeComponent } from './components/home/home.component'
     SocialMediaComponent,
     NavbarComponent,
     PostsComponent,
+    PostComponent,
     HomeComponent
   ],
   imports: [
