@@ -8,7 +8,9 @@ import { ContainerComponent } from './components/container/container.component'
 import { SocialMediaComponent } from './components/social-media/social-media.component'
 import { NavbarComponent } from './components/navbar/navbar.component'
 import { PostsComponent } from './components/posts/posts.component'
-import { PostService } from './services/post.service'
+import { PostService } from './services/post.service';
+import { AppRoutingModule } from './app-routing.module';
+import { HomeComponent } from './components/home/home.component'
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { PostService } from './services/post.service'
     ContainerComponent,
     SocialMediaComponent,
     NavbarComponent,
-    PostsComponent
+    PostsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [
     PostService
