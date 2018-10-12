@@ -19,7 +19,7 @@ export class ProfileComponent implements OnInit {
     this.profile = {
       firstName: 'Christian',
       lastName: 'Bourlier',
-      location: 'Boulder  CO',
+      location: 'Boulder || Denver',
       specialty: 'Software Developer',
       image: '../../../assets/christianBourlier.jpg',
   

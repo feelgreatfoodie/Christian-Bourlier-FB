@@ -1,4 +1,8 @@
 nav {
-  background-color: #52636e
+  background-color: #52636e;
+  /* color: #9dbacc */
+}
 
+small {
+  color: rgb(235, 235, 235)
 }

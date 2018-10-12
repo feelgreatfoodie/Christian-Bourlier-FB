@@ -1,12 +1,15 @@
 <div class="card">
   <div class="card-body">
-    <h3 class="profile-header">{{ profile.firstName }} {{ profile.lastName }}</h3>
-    <p class="profile-header">{{ profile.specialty }}</p>
+    <!-- <h3 class="profile-header">{{ profile.firstName }} {{ profile.lastName }}</h3> -->
+    <!-- <p class="profile-header">{{ profile.specialty }}</p> -->
+
     <img [src]="profile.image" alt="image of {{ profile.firstName }}">
+
     <ul class="list-group">
-      <li class="list-group-item">{{ profile.location }}</li>
-      <li class="list-group-item">{{ profile.contactInfo.phone }}</li>
-      <li class="list-group-item">{{ profile.contactInfo.email }}</li>
+      <li class="list-group-item"><i class="fa fa-home"></i>{{ profile.location }}</li>
+      <li class="list-group-item"><i class="fa fa-phone"></i>{{ profile.contactInfo.phone }}</li>
+      <li class="list-group-item"><i class="fa fa-envelope"></i>{{ profile.contactInfo.email }}</li>
     </ul>
+
   </div>
 </div>
