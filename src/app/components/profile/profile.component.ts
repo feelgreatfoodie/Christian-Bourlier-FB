@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 
-import { User } from '../../models/User'
+import { Profile } from '../../models/Profile'
 
 @Component({
   selector: 'app-profile',
@@ -9,25 +9,26 @@ import { User } from '../../models/User'
 })
 
 export class ProfileComponent implements OnInit {
-  user: User
+  profile: Profile
 
   constructor() {
-    this.user = {
+  }
+
+
+  ngOnInit() { 
+    this.profile = {
       firstName: 'Christian',
       lastName: 'Bourlier',
-      location: 'Boulder, CO',
-      specialty: 'Full Stack Developer',
+      location: 'Boulder  CO',
+      specialty: 'Software Developer',
   
       contactInfo: {
         phone: '310.963.5282',
-        email: 'christianbourlier@gmail.com',
+        email: 'ChristianBourlier@gmail.com',
         github: 'https://github.com/feelgreatfoodie',
         linkedIn: 'https://linkedin.com/in/christianbourlier/' 
       }
     }
   }
-
-
-  ngOnInit() { }
 
 }
