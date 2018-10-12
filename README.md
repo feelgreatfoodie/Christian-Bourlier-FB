@@ -5,3 +5,6 @@ This project is an opportunity to learn Angular with a forward look to making it
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Video Link
+https://youtu.be/WJFkBNDHKg0
