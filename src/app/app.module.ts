@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core'
 
 import { AppComponent } from './app.component'
 import { ProfileComponent } from './components/profile/profile.component';
-import { LeftColumnComponent } from './components/left-column/left-column.component'
+import { ContainerComponent } from './components/container/container.component';
+import { SocialMediaComponent } from './components/social-media/social-media.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
-    LeftColumnComponent
+    ContainerComponent,
+    SocialMediaComponent
   ],
   imports: [
     BrowserModule
